@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Uploads and temporary files
+uploads/
+uploads_local/
+thumbnails/
+thumbnails_local/
+analysis_results/
+
+# Frontend source library files should be tracked
+!frontend/src/lib/
+!frontend/src/lib/**
+
+# Node modules (frontend)
+node_modules/
+
+# Frontend build
+dist/
+
+# Backup files
+*.backup
+*.backup.*
+*.old
+*.old.*
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local migration scripts (already executed)
+*_local.py
+migrate_*.py
+create_super_admin*.py
+add_admin_fields*.py

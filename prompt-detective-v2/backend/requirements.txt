@@ -1,0 +1,43 @@
+# FastAPI Backend Requirements - Simplified for free tier
+# Core framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Authentication & Security
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-jose[cryptography]
+pyjwt
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# File handling & analysis
+pillow
+opencv-python-headless
+numpy
+scipy  # Used for: distance calculations, entropy
+scikit-image  # Used for: SSIM, LBP, Sobel filters
+
+# AI/ML
+groq
+
+# Utilities
+python-dotenv
+pydantic[email]
+pydantic-settings
+requests
+aiofiles
+cloudinary
+sib-api-v3-sdk  # Brevo/Sendinblue - FREE 300 emails/day, no domain needed
+razorpay  # Razorpay Payment Gateway - Indian market (UPI, Cards, NetBanking)
+
+# Development
+pytest
+pytest-asyncio
+httpx

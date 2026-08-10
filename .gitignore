@@ -1,0 +1,81 @@
+node_modules/
+.env
+analysis_results/
+# add any node_modules or other files/folders you want to ignore
+# Logs
+logs/
+*.log
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+.env.production
+.env 
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables
+.env
+.env.production
+
+# Local Development (don't commit local data)
+app_data.sqlite3
+uploads_local/
+thumbnails_local/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Analysis Results (optional - you might want to track these)
+analysis_results/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Logs
+*.log
+logs/

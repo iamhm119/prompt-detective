@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  .dark .text-gray-400,
+  .dark .text-slate-400 {
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  .dark .text-gray-500,
+  .dark .text-slate-500 {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  .dark .text-gray-600,
+  .dark .text-slate-600 {
+    color: rgba(255, 255, 255, 0.84);
+  }
+
+  .dark .text-gray-700,
+  .dark .text-slate-700 {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .dark .text-gray-800,
+  .dark .text-slate-800 {
+    color: rgba(255, 255, 255, 0.94);
+  }
+
+  .dark .text-gray-300,
+  .dark .text-slate-300 {
+    color: rgba(255, 255, 255, 0.86);
+  }
+
+  .dark .text-gray-200,
+  .dark .text-slate-200 {
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .dark .text-gray-100,
+  .dark .text-slate-100 {
+    color: rgba(255, 255, 255, 0.97);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
